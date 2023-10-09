@@ -245,6 +245,12 @@ const default_config = {
                           "url": "https://www.linkedin.com/feed/",
                           "icon": "brand-linkedin",
                           "icon_color": "#7daea3"
+                      },
+                      {
+                          "name": "Moodle",
+                          "url": "https://moodle.pucrs.br/my/",
+                          "icon": "notebook",
+                          "icon_color": "#e78a4e"
                       }
                   ]
               }
@@ -335,8 +341,8 @@ const default_config = {
   ]
 };
 
-//const CONFIG = new Config(saved_config ?? default_config);
-const CONFIG = new Config(default_config);
+const CONFIG = new Config(saved_config ?? default_config);
+//const CONFIG = new Config(default_config);
 
 (function() {
   var css = document.createElement('link');
